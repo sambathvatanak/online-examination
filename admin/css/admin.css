@@ -1,0 +1,348 @@
+ *{margin:0;padding:0;outline:none}
+ body{font-family:verdana}.phpcoding{width:900px; margin: 0 auto;background:#ddd}
+ .headeroption {
+  background-color: #012294;
+  border-bottom: 2px solid #444444;
+  height: 100px;
+
+}
+
+.tooltip-inner {
+    font-size: 10px;
+}
+
+a.btn {
+  background-color: DodgerBlue;
+border: none;
+color: white;
+padding: 4px 6px;
+font-size: 16px;
+cursor: pointer;
+}
+
+a.btn-remove {
+  background-color: DodgerBlue;
+border: none;
+color: white;
+padding: 8px 10px;
+font-size: 16px;
+cursor: pointer;
+}
+
+.left{
+  width: 4%;
+  float: left;
+  color: #012294;
+  background-color: #012294;
+}
+
+.mid{
+  padding-top: 4px;
+}
+
+.right{
+  float: right;
+}
+
+img{
+  width: 90px;
+  height: 90px;
+}
+
+.name_eng{
+  width: 400px;
+  height: 90px;
+}
+
+#add_ques{
+height: 40px;
+}
+.tr_font_size{
+  font-size: 15px;
+}
+
+.adminpanel{
+  width: 500px;
+  color: #999;
+  margin: 30px auto 0;
+  padding: 32px;
+  border: 2px solid #c8cace;
+}
+
+.footeroption{
+  color:#fff;
+  text-align:center;
+  padding:20px;
+  height: 100px;
+  border-top: 2px solid #444444;
+  background-color: #012294;
+}
+ .headeroption h2, .footeroption h2{margin:0;font-size:24px}
+.maincontent {
+  font-size: 18px;
+  min-height: 430px;
+  padding: 20px;
+  display: block;
+
+}
+.success{
+  color:green;
+  display: block;
+  padding-bottom: 5px;}
+.error {
+  color: red;
+  display: block;
+  padding-bottom: 5px;
+}
+ p{margin:0}
+input[type="text"], input[type="password"]{
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 350px;
+}
+ input[type="number"]{
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100px;
+}
+input[type="submit"] {
+  cursor: pointer;
+  font-size: 15px;
+  padding: 1px 10px;
+}
+.tblone{
+  width:100%;
+  border:1px solid #fff;
+  margin:20px 0;
+  border-collapse:collapse;
+}
+.tblone td {
+  font-size: 15px;
+  padding: 5px 10px;
+  border: 1px solid #999;
+}
+
+
+table.tblone th {
+  background-color: #d0d0d0;
+  border: 1px solid #999;
+  padding: 5px;
+}
+ table.tblone tr:nth-child(2n+1){background:#fff;height:35px;}
+ table.tblone tr:nth-child(2n){background-color: #f2f2f2;height:35px;}
+ table.tblone tr:hover{ background-color: #ddd;}
+.tblone td a{color:#007bff;}
+
+
+.main {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #012294;
+  margin-top: 10px;
+  min-height: 368px;
+  padding: 15px;
+  width: 860px;
+  border: 2px solid #012294;
+}
+.main h1 {
+  border-bottom: 1px dashed #ddd;
+  color: #888;
+  margin: 0 0 5px;
+  padding-bottom: 5px;
+}
+.main h3 {
+  border-bottom: 2px dashed #ddd;
+  color: #888;
+  margin: 0 0 5px;
+  padding-bottom: 5px;
+}
+
+.main h2 {
+  border-bottom: 2px dashed #ddd;
+  color: #888;
+  margin: 0 0 5px;
+  padding-bottom: 5px;
+}
+
+.main_result {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #012294;
+  margin-top: 0;
+  min-height: 368px;
+  padding: 15px;
+  width: 860px;
+  border: 2px solid #012294;
+}
+.main_result h1 {
+  border-bottom: 1px dashed #ddd;
+  color: #888;
+  margin: 0 0 5px;
+  padding-bottom: 5px;
+}
+.main_result h3 {
+  border-bottom: 2px dashed #ddd;
+  color: #888;
+  margin: 0 0 5px;
+  padding-bottom: 5px;
+}
+
+.main_result h2 {
+  border-bottom: 2px dashed #ddd;
+  color: #888;
+  margin: 0 0 5px;
+  padding-bottom: 5px;
+}
+
+p{
+  padding-top: 15px;
+}
+
+.menu{overflow:hidden;}
+.menu ul{margin:0;padding:0;list-style:none}
+.menu ul li{display:block;float:left;}
+.menu ul li a {
+  border: 1px solid #9f9f9f;
+  border-radius: 3px;
+  color: #444;
+  display: block;
+  font-size: 14px;
+  margin: 0 5px 5px;
+  padding: 5px 10px 5px;
+  width: 110px;
+  text-decoration: none;
+}
+.menu ul li a:hover{
+  border:1px solid #012294 ;
+  color: #012294;
+}
+.menu1{overflow:hidden;}
+.menu1 ul{margin:0;padding:0;list-style:none}
+.menu1 ul li{display:block;float:left;}
+.menu1 ul li a {
+  border: 1px solid #9f9f9f;
+  border-radius: 3px;
+  color: #444;
+  display: block;
+  font-size: 14px;
+  margin: 0 5px 5px;
+  padding: 10px 20px 10px;
+  width: 130px;
+  text-align: center;
+  text-decoration: none;
+}
+.menu1 ul li a:hover{
+  border: 1px solid #012294;
+  color: #012294;
+}
+.menu1 li.activeLink {
+  color: #004f80;
+  background-color: #d3d3d3;
+}
+
+.segment {
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  float: left;
+  min-height: 225px;
+  padding: 20px;
+  width: 357px;
+}
+.segment img {
+  height: 200px;
+  margin-left: 80px;
+  padding-top: 12px;
+}
+.segment h2 {
+  border-bottom: 1px solid #ddd;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.segment a{color: #3399ff;text-decoration:underline}
+.segment a:hover{text-decoration:none}
+.segment ul {
+  list-style: outside none none;
+  margin: 0 0 0 70px;
+  padding: 0;
+}
+.segment ul  li{}
+.segment ul li a {
+  border: 1px solid #3399ff;
+  border-radius: 3px;
+  color: #3399ff;
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+}
+.segment ul  li a:hover{border: 1px solid #999; color: #999;}
+
+
+.test {
+  border: 1px solid #f3f3f3;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+.test input[type="radio"] {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  cursor:pointer;
+}
+.test h3 {
+  border-bottom: 1px solid #f3f3f3;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.starttest {
+
+}
+.starttest h2 {
+  border-bottom: 1px dashed #ddd;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.starttest ul{margin:0;padding:0; list-style:none;}
+.starttest ul li{margin-top:5px;}
+.starttest a {
+  background: #f4f4f4 none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  color: #3399ff;
+  display: block;
+  margin-top: 10px;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.td-size tr td{
+  width: 150px;
+  font-stretch: 10;
+}
+
+tr.th-align{
+  text-align: center;
+  font-size: 15px;
+}
+tr.tr-align {
+    text-align: center;
+}
+/* .hoverTable{
+		width:100%;
+		border-collapse:collapse;
+	}
+	.hoverTable td{
+		padding:7px; border:#4e95f4 1px solid;
+	}
+	/* Define the default color for all the table rows */
+	/* .hoverTable tr{
+		background: #b8d1f3;
+	} */
+	/* Define the hover highlight color for the table row */ */
